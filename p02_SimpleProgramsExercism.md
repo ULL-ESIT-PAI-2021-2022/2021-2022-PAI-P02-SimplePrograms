@@ -3,26 +3,35 @@
 
 ### Objetivos
 Los objetivos de esta práctica son:
-* Realiar algunas tareas administrativas previas para facilitar el trabajo en la asignatura
-* Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS
-* Configurar y practicar el uso del Visual Studio Code para editar ficheros en la máquina IaaS de la asignatura
-* Instalar un servidor web estático en la máquina virtual de la asignatura
-* Conocer la plataforma Jutge
+* Ser capaz de realizar programas simples en JavaScript en el entorno Linux de la VM de la asignatura usando
+  Node.js
+* Conocer y saber utilizar la plataforma Jutge para resolver problemas de programación
+* Conocer y poner en prácticas las recomendaciones de la Guía de Estilo de Google para JavaScript
 
 ### Rúbrica de evaluacion del ejercicio
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Se valorará la realización de las diferentes tareas que se proponen
-* El alumnado ha de acreditar que es capaz de editar ficheros de forma remota en su VM usando VSC
-* El alumnado ha de ser capaz de instalar y mantener ejecutando un servidor web estático
-* El alumnado debe ser capaz de subir la solución a un problema de Jutge a esa plataforma
+* El alumnado ha de acreditar que es capaz de desarrollar y ejecutar programas simples de la plataforma Jutge
+* Se comprobará que el código que el alumnado escribe se adhiere a las reglas de la Guía de Estilo que se
+  usará en la asignatura
+* El alumnado ha de acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio
+  Code (VSC)
+
+### Objetivos
+Los objetivos de esta práctica son:
+* Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS
+* Configurar y practicar el uso del VSC para editar ficheros en la máquina IaaS de la asignatura
+* Instalar un servidor web estático en la máquina virtual de la asignatura
+* Conocer la plataforma Jutge
 
 ### Jutge
 Cuando se inscriba Ud. en el curso `PAI - 2021-2022` de 
 [Jutge](https://jutge.org/),
 hallará una lista de problemas de programación de diferente dificultad.
 
-El objeto de esta práctica es que comience Ud. a desarrollar algunos de esos ejercicios.
+El objeto de esta práctica es que comience Ud. a desarrollar algunos de esos ejercicios y resuelva todos los
+que sea capaz: cuantos más resuelva más mejorará sus capacidades como programadora.
 
 A la hora de resolver los problemas que se le proponen, trate de usar exclusivamente las características de
 JavaScript que ha estudiado en clase o bien en el material que se le ha pedido que estudie.
@@ -35,7 +44,7 @@ que es una posible solución al problema
 [P37500 First numbers](https://jutge.org/problems/P37500_en)
 de Jutge.
 
-Utilice ese programa como ejemplo de cómo debieran ser los programas que escribiremos en PAI.
+Utilice ese programa como ejemplo de cómo debieran ser los programas que desarrollará en PAI.
 
 Para ejecutarlo, comience por ejecutar:
 
@@ -54,7 +63,6 @@ Preste particular atención a los siguientes aspectos:
   para nombres (identificadores) de diferente tipología (constantes, variables, parámetros, funciones, ...).
   En particular, no se han de usar identificadores "de una sola letra" salvo, tal vez, en contadas
   excepciones (iteradores en un bucle).
-  
 * [Formateo](https://google.github.io/styleguide/jsguide.html#formatting) del código
 * Utilización de los
   [espacios en blanco](https://google.github.io/styleguide/jsguide.html#formatting-horizontal-whitespace)
