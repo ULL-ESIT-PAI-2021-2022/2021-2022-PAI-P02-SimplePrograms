@@ -133,7 +133,7 @@ los programas de la asignatura usen una función (se puede usar *main()* o cualq
 será el punto de entrada inicial al programa.
 
 ### Ejercicios de Jutge
-* Escriba programas que solucionen los siguientes problemas-
+Desarrolle programas que solucionen los siguientes problemas:
 
 1. [P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
 2. [P29973](https://jutge.org/problems/P29973) Triangle
