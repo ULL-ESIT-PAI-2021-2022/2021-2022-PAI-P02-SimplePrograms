@@ -6,7 +6,7 @@ Los objetivos de esta práctica son:
 * Ser capaz de realizar programas simples en JavaScript en el entorno Linux de la VM de la asignatura usando
   Node.js
 * Conocer y saber utilizar la plataforma Jutge para resolver problemas de programación
-* Conocer y poner en prácticas las recomendaciones de la Guía de Estilo de Google para JavaScript
+* Conocer y poner en práctica las recomendaciones de la Guía de Estilo de Google para JavaScript
 
 ### Rúbrica de evaluacion del ejercicio
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
@@ -17,13 +17,6 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
   usará en la asignatura
 * El alumnado ha de acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio
   Code (VSC)
-
-### Objetivos
-Los objetivos de esta práctica son:
-* Conocer y configurar el entorno de trabajo de la asignatura en el sistema Linux del IaaS
-* Configurar y practicar el uso del VSC para editar ficheros en la máquina IaaS de la asignatura
-* Instalar un servidor web estático en la máquina virtual de la asignatura
-* Conocer la plataforma Jutge
 
 ### Jutge
 Cuando se inscriba Ud. en el curso `PAI - 2021-2022` de 
