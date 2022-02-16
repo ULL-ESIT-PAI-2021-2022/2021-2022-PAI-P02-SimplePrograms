@@ -24,6 +24,12 @@ hallará una lista de problemas de programación de diferente dificultad.
 
 El objeto de esta práctica es que comience Ud. a desarrollar algunos de esos ejercicios.
 
+A la hora de resolver los problemas que se le proponen, trate de usar exclusivamente las características de
+JavaScript que ha estudiado en clase o bien en el material que se le ha pedido que estudie.
+
+Descarte soluciones avanzadas y nunca utilice código que no sea Ud. capaz de comprender y explicar a otra
+persona.
+
 En el directorio `first-numbers-P37500` de esta práctica encontrará el fichero `first-numbers-P37500.js`
 que es una posible solución al problema 
 [P37500 First numbers](https://jutge.org/problems/P37500_en)
@@ -31,9 +37,34 @@ de Jutge.
 
 Utilice ese programa como ejemplo de cómo debieran ser los programas que escribiremos en PAI.
 
+Para ejecutarlo, comience por ejecutar:
+
+```
+$ npm install
+```
+en el directorio base de su proyecto y a continuación ejecute el programa utilizando `node`.
+
+### Guía de Estilo
+Los programas que escriba han de seguir **fielmente** todas las indicaciones de la 
+[Guía de estilo de Google para JavaScript](https://google.github.io/styleguide/jsguide.html).
+Estudie esa guía omitiendo todo lo que se refiera a características avanzadas del lenguaje que no haya Ud.
+estudiado aún.
+Preste particular atención a los siguientes aspectos:
+* Reglas para nombres (identificadores) de diferente tipología (constantes, variables, parámetros, funciones, ...)
+* [Formateo](https://google.github.io/styleguide/jsguide.html#formatting) del código
+* Utilización de los
+  [espacios en blanco](https://google.github.io/styleguide/jsguide.html#formatting-horizontal-whitespace)
+* Comentarios de ["cabecera"](https://google.github.io/styleguide/jsguide.html#jsdoc-top-file-level-comments) para sus programas. 
+Esa guía de estilo es la que se utilizará en la asignatura y la conformidad de todos los programas presentados como prácticas es un requisito en la evaluación de los mismos.
+
 ### Comentarios de cabecera
 Una buena práctica en el ámbito de la documentación del código consiste en incluir un bloque de comentarios al comienzo
 de todos los ficheros de un proyecto de desarrollo de software.
+
+Para este aspecto se recomienda utilizar una "plantilla" base de comentarios que incluya información tal
+como: Universidad, Titulación, Asignatura, Proyecto, Autor, Fecha, ... que irá siempre seguido de una
+descripción más o menos exhaustiva del programa en cuestión
+
 El siguiente es un ejemplo de comentario de bloque que debería incluirse al comienzo de todos los ficheros
 (`*.js`) de sus proyectos de programación:
 
@@ -52,9 +83,7 @@ El siguiente es un ejemplo de comentario de bloque que debería incluirse al com
  * @see {@link https://www.npmjs.com/package/@types/readline-sync}
  *
  */
-
 ```
-
 
 Todo fichero debiera contener (etiqueta `@desc`) una breve descripción del contenido del fichero.
 Si fuera necesario se incluirá a continuación una descripción más detallada.
@@ -71,9 +100,34 @@ A título de ejemplo,
 [consulte el texto](https://www.gnu.org/licenses/gpl-3.0.html)
 que se debiera incluir en los ficheros para publicarlos bajo licencia GPLv3.
 
+
 ### The modern mode, "use strict"
 Incluya siempre en sus programas la directiva 
 ['use strict';](https://javascript.info/strict-mode)
+
+
+
+
+
+
+
+
+
+
+
+
+Estudie 
+[esta referencia](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/) 
+para aprender a trabajar con parámetros pasados en línea de comandos a un programa ejecutado con Node.js.
+
+Este [código de ejemplo](https://repl.it/@fsande/commandLineArguments) (ejecútelo en la consola de Node, no en el REPL.it) puede servirle de ayuda inicialmente.
+
+No lo necesitará para Exercism, pero pruebe a ejecutar todos los programas que escriba pasándole parámetros
+por línea de comandos.
+
+
+
+
 
 ### Ejercicios de Jutge
 * Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
