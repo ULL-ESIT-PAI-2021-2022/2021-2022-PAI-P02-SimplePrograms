@@ -110,24 +110,20 @@ Incluya siempre en sus programas la directiva
 ['use strict';](https://javascript.info/strict-mode)
 
 
-
-
-
-
-
-
-
-
-
+### Consideraciones adicionales
 
 Estudie 
 [esta referencia](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/) 
 para aprender a trabajar con parámetros pasados en línea de comandos a un programa ejecutado con Node.js.
+La recomendación para los ejercicios de Jutge es que el programa tome sus parámetros por línea de comandos,
+en lugar de solicitarlos por teclado al usuario.
+
+Entre los ejemplos de código que se usan en la asignatura puede hallar
+[este
+ejemplo](https://github.com/ULL-ESIT-PAI-2021-2022/PAI-class-code-examples/blob/master/src/T1A-IntroJS/command-line-parameters.js)
+que ilustra cómo pasar parámetros por línea de comandos.
 
 Este [código de ejemplo](https://repl.it/@fsande/commandLineArguments) (ejecútelo en la consola de Node, no en el REPL.it) puede servirle de ayuda inicialmente.
-
-No lo necesitará para Exercism, pero pruebe a ejecutar todos los programas que escriba pasándole parámetros
-por línea de comandos.
 
 
 
