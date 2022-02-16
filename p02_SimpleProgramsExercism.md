@@ -50,7 +50,11 @@ Los programas que escriba han de seguir **fielmente** todas las indicaciones de 
 Estudie esa guía omitiendo todo lo que se refiera a características avanzadas del lenguaje que no haya Ud.
 estudiado aún.
 Preste particular atención a los siguientes aspectos:
-* Reglas para nombres (identificadores) de diferente tipología (constantes, variables, parámetros, funciones, ...)
+* [Reglas](https://google.github.io/styleguide/jsguide.html#naming-rules-common-to-all-identifiers)
+  para nombres (identificadores) de diferente tipología (constantes, variables, parámetros, funciones, ...).
+  En particular, no se han de usar identificadores "de una sola letra" salvo, tal vez, en contadas
+  excepciones (iteradores en un bucle).
+  
 * [Formateo](https://google.github.io/styleguide/jsguide.html#formatting) del código
 * Utilización de los
   [espacios en blanco](https://google.github.io/styleguide/jsguide.html#formatting-horizontal-whitespace)
