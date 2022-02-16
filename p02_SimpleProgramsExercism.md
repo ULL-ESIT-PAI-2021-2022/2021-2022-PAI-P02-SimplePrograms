@@ -111,30 +111,28 @@ Incluya siempre en sus programas la directiva
 
 
 ### Consideraciones adicionales
+El programa `first-numbers-P37500.js` utiliza el módulo *readline-sync* para leer entrada desde el teclado de forma síncrona.
+Estudie la documentación de ese módulo.
+
+Alternativamente los programas podrían (y así se recomienda hacerlo para los ejercicios de Jutge) tomar la
+entrada a través de sus parámetros en línea de comandos.
 
 Estudie 
 [esta referencia](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/) 
 para aprender a trabajar con parámetros pasados en línea de comandos a un programa ejecutado con Node.js.
-La recomendación para los ejercicios de Jutge es que el programa tome sus parámetros por línea de comandos,
-en lugar de solicitarlos por teclado al usuario.
 
 Entre los ejemplos de código que se usan en la asignatura puede hallar
-[este
-ejemplo](https://github.com/ULL-ESIT-PAI-2021-2022/PAI-class-code-examples/blob/master/src/T1A-IntroJS/command-line-parameters.js)
+[este ejemplo](https://github.com/ULL-ESIT-PAI-2021-2022/PAI-class-code-examples/blob/master/src/T1A-IntroJS/command-line-parameters.js)
 que ilustra cómo pasar parámetros por línea de comandos.
 
-Este [código de ejemplo](https://repl.it/@fsande/commandLineArguments) (ejecútelo en la consola de Node, no en el REPL.it) puede servirle de ayuda inicialmente.
-
-
-
-
+Al igual que se hace en el programa `first-numbers-P37500.js`, organice sus programas en torno a diversas
+funciones.
+Mientras que en Javascript no tiene porqué haber función `main()` al estilo de C o C++, sí se recomienda que
+los programas de la asignatura usen una función (se puede usar *main()* o cualquier otro identificador) que
+será el punto de entrada inicial al programa.
 
 ### Ejercicios de Jutge
-* Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
-* Escriba todos los programas de modo que estén estructurados en funciones.
-Debiera haber como mínimo dos funciones siendo `main()` una de ellas.
-* Recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista del funcionamiento.
-Su código ha de cumplir adicionalmente con los requisitos de modularidad, formato y estilo.
+* Escriba programas que solucionen los siguientes problemas-
 
 1. [P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
 2. [P29973](https://jutge.org/problems/P29973) Triangle
@@ -148,8 +146,7 @@ Su código ha de cumplir adicionalmente con los requisitos de modularidad, forma
 10. [P80660](https://jutge.org/problems/P80660) The sequence of Collatz
 
 ### Referencias
-* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+* [JavaScript Fundamentals](https://javascript.info/first-steps)
+* [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2021-2022/PAI-class-code-examples/tree/master/src)
+* [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [Jutge web site](https://jutge.org/)
-* [Jutge information](https://docs.google.com/presentation/d/14UvZPw4OJvogp6afLeouOAODcBNo5JhgePBQfkiAkic/edit?usp=sharing)
-* [Jutge documentation](https://jutge.org/documentation)
-
